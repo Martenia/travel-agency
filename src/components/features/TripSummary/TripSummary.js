@@ -34,4 +34,8 @@ TripSummary.propTypes = {
   tags: PropTypes.array,
 };
 
+TripSummary.defaultProps = {
+  tags: ['tag1'],
+};
+
 export default TripSummary;
